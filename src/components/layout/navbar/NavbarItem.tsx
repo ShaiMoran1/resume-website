@@ -15,7 +15,7 @@ export const NavbarItem: React.FC<NavbarItemProps> = ({ item }) => {
 
   return (
     <div
-      className="cursor-pointer text-lg h-full w-20 flex justify-center items-center hover:bg-slate-400 transition-all"
+      className="cursor-pointer text-lg h-full w-20 flex justify-center items-center hover:bg-slate-400 transition-all duration-500"
       onClick={onClickHandler}
     >
       {item.label}

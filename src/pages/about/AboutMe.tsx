@@ -10,9 +10,8 @@ type AboutMeProps = {};
 export const AboutMe: React.FC<AboutMeProps> = () => {
   return (
     <>
-      <Card classNames="h-120 w-160">
-        <div className="flex items-center gap-10 pb-5">
-          <Profile />
+      <Card classNames="h-1/3 w-3/4 flex flex-col gap-10">
+        <div>
           <Title text="About Me..." />
         </div>
         <div className="flex flex-col gap-5 mb-5">

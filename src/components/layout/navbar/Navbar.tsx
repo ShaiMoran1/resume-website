@@ -21,7 +21,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
     },
   ];
   return (
-    <div className="flex flex-row h-16 bg-slate-500 items-center">
+    <div className="flex flex-row h-16 items-center">
         <Logo/>
       {items.map((item) => {
         return (

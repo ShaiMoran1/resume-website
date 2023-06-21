@@ -30,7 +30,7 @@ export const AboutWebsite: React.FC<AboutWebsiteProps> = () => {
   ];
   return (
     <>
-      <Card classNames="w-160 h-120">
+      <Card classNames="h-1/3 w-3/4 flex flex-col gap-10">
         <Title text="About The Website..." />
         <p>This website was built using the following technologies:</p>
         <div className="flex flex-col gap-10">

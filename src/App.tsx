@@ -4,7 +4,7 @@ import { Router } from './router';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App text-slate-200">
       <Router/>
     </div>
   );
